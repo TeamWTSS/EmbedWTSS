@@ -1,0 +1,6 @@
+venv
+.idea
+/run.spec
+/run.py
+/build
+/dist
