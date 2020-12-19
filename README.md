@@ -8,9 +8,9 @@ easily syntax. Syntax looks like english.
 
 Using
 ---
-First we are creating new file "test.ss"
+First we are creating new file "test.wss"
 
-We write this to "test.ss" file
+We write this to "test.wss" file
 ```
 set window.title to TestTitle;
 set window.width to 500;
@@ -23,10 +23,10 @@ run;
 - window.heigth var is setting will open window heigth
 
 
-Now, you can use with .ss file.
+Now, you can use with .wss file.
 
 ```
-EmbedWTSS.exe test.ss
+EmbedWTSS.exe test.wss
 ```
 
 ### Console Result
@@ -42,7 +42,7 @@ Please enter a command >
 If we want re-start app without close
 ```
 Entering Interpreter mode
-Please enter a command > run file://test.ss;
+Please enter a command > run file://test.wss;
 ```
 Console looks like.
 
@@ -74,7 +74,7 @@ run window://window.test;
 Now we are use run function for run window. if you are want run window, you can run the code at the top
 
 ```
-run file://test.ss;
+run file://test.wss;
 ```
 Now we are use run function for run file. if you are want run file, you can run the code at the top
 
